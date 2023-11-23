@@ -1,0 +1,100 @@
+.container {
+    max-width: 60px;
+    margin: 0 auto;
+    background-color:rgb(241, 247, 248);
+    padding: 20px;
+    border-radius: 10px;
+  }
+ 
+.container {
+    max-width: 50px;
+    margin: 0 auto;
+    background-color: aliceblue;
+  }
+ 
+  .row {
+    margin-bottom: 20px;
+  }
+ 
+  .form-control {
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    left: rem;
+  }
+ 
+  .btn-primary {
+    width: 40%;
+    padding: 7px;
+  }
+  /* Style for label and input wrapper */
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+ 
+
+.input-wrapper {
+  flex: 2;
+}
+#form1{
+  background-color: aliceblue;
+  width: 40%;
+}
+/* Adjust label width */
+form label,form input{
+  width: 100%;
+  height: 40px;
+  padding: 12px 20px;
+  margin: -8px 0;
+  display: inline-block;
+  margin-right: 120px;
+  font-size:xx-large;
+  margin-top: -10px;
+}
+label{
+  flex: 0 0 1px; /* Adjust the width as needed */
+  text-align: top;
+  padding-right: 10px;
+  position: relative;
+  bottom: 18px;
+}
+h1{
+  text-align: left;
+ }
+ #address{
+  left: 1rem;
+ }
+ #dob{
+  left:35px;
+  width:200px;
+ }
+ #state{
+  left:38px
+ }
+ #pincode{
+  left:1rem;
+ }
+ #email{
+  left:1rem;
+  width: 200px;
+  margin-left: 1px;
+  margin-right: 30px;
+ }
+#password{
+  left:2rem;
+  width: 180px;
+  margin-left: 65px;
+}
+label{
+  right: 30px;
+}
+#ema{
+  left: 1rem;
+}
+
+.form-control::placeholder{
+  font-size: medium;
+}
